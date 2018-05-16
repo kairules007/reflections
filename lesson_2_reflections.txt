@@ -6,3 +6,7 @@ We create a reposirory so that we can keep track of our files.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area offers more control to us, it allow us to select files which we want to commit we can eliminate the other files which we dont want to commit.
+
+How you can use the staging area to make sure you have one commit per logical change?
+
+We can use the staging area to compare the changes we made since the last commit, and then we can make sure is the change logical enough to be commited.
