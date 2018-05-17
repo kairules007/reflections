@@ -14,3 +14,7 @@ We can use the staging area to compare the changes we made since the last commit
 What are some situtations when branches would be helpful in keeping you history organized? How would branches help?
 
 Branches allow us to try out different things or create different version of the file and keeping track of all of the together.
+
+How do the diagram help you visualize the branch structure?
+
+The diagram help us to visualize the reachability of each commit and how many branches we have created.
