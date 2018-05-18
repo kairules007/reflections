@@ -18,3 +18,9 @@ Branches allow us to try out different things or create different version of the
 How do the diagram help you visualize the branch structure?
 
 The diagram help us to visualize the reachability of each commit and how many branches we have created.
+
+What is the result of merging two branches together? Why do we reprent it in the diagram the way we do?
+
+By merging two branches we create a new commit which will include the functionality introduced in both the branches and the label
+of that commit would be the branch that was checked out while doing the merge. We represt the merge in the diagram this way 
+because after the merge the new commit created has multiple parent and the commit keep track of both of its parent.
