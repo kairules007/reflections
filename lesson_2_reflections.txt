@@ -24,3 +24,21 @@ What is the result of merging two branches together? Why do we reprent it in the
 By merging two branches we create a new commit which will include the functionality introduced in both the branches and the label
 of that commit would be the branch that was checked out while doing the merge. We represt the merge in the diagram this way 
 because after the merge the new commit created has multiple parent and the commit keep track of both of its parent.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Pros of automatic merging
+    Fast 
+    require less human effort 
+    accurate
+
+Cons of automatic merging 
+    Cannot decide which changes to keep and discard in case of conflict
+
+Pros of manual merging
+    Selection of best code while merging
+
+Cons of manual merging 
+    Slow
+    require lot of humar effort
+    time-consuming
