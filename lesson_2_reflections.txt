@@ -1,29 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 When we initialize a repository a hidden directory .git is created which stores all the metadata.
-We create a reposirory so that we can keep track of our files.
+We create a reposirory so that we can keep track of versions our files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area offers more control to us, it allow us to select files which we want to commit we can eliminate the other files which we dont want to commit.
+The staging area offers more control to us, it allow us to select files which we want to commit, we can eliminate other files which we dont want to commit.
 
 How you can use the staging area to make sure you have one commit per logical change?
 
-We can use the staging area to compare the changes we made since the last commit, and then we can make sure is the change logical enough to be commited.
+We can use the staging area to compare the changes we made since the last commit, and then we can make sure if the change logical enough to be commited.
 
-What are some situtations when branches would be helpful in keeping you history organized? How would branches help?
+What are some situtations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be really helpful when we want to try something experimental and don't want to break the current project becuase of those changes.
 
 Branches allow us to try out different things or create different version of the file and keeping track of all of the together.
 
 How do the diagram help you visualize the branch structure?
 
 The diagram help us to visualize the reachability of each commit and how many branches we have created.
+Diagram also allow to see what commits were created in that particular branch.
 
 What is the result of merging two branches together? Why do we reprent it in the diagram the way we do?
 
 By merging two branches we create a new commit which will include the functionality introduced in both the branches and the label
 of that commit would be the branch that was checked out while doing the merge. We represt the merge in the diagram this way 
-because after the merge the new commit created has multiple parent and the commit keep track of both of its parent.
+because after the merge the new commit created has multiple parent and the commit keep track of all of its parents.
 
 What are the pros and cons of Git's automatic merging vs always doing merges manually?
 
