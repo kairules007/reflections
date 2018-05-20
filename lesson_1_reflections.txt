@@ -16,21 +16,22 @@ Pros of manually saving the commit
 Cons of manually saving the commit
 	Can forget to save a usefull commit
 
-Why do you think some version control systems, like git, allow saving multiple files in one commit, while others, like google docs,treat each file separately
+Why do you think some version control systems, like git, allow saving multiple files in one commit, while others, like google docs,treat each file separately?
 
-Git allow multiple files to save as a one commit because often projects consist of multiple files and maintaing a seprate commit  for each file will be cummbersome so version control allow us to save multiple files as one commit.
+Git allow multiple files to save as one commit because often projects consist of multiple files and maintaing a seprate commit  for each file will be cummbersome so version control allow us to save multiple files as one commit.
 
 How can you use the commands git log and git diff to view the history of files?
 
-First go to the directory where the git repository is kept
-type git log to see all the commits that were created
+First go to the directory where the git repository is kept type git log to see all the commits that were created and the message associated with it.
+
+Use git diff to see what exact changes were made during that commit.
 
 git diff oldcommitid newcommitid
 
-How might using version control make you more confident to make changes that could break something
+How might using version control make you more confident to make changes that could break something?
 
 Using version control we are more confident while making changes that could break something because at any point in time we could restore our previous version.
 
-What do you want to try using git on
+What do you want to try using git on?
 
-I want to try using git on my upcoming android project
+I want to try using git on my upcoming android projects and many more.
