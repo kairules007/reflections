@@ -22,3 +22,8 @@ What is the benefit of having a copy of the local known state of the remote stor
 
 	The benefit og having a local known copy of state of the remote is that we can see what changes have been made into the github account
 	since the last time we pushed/pulled and it also allow us to handle conflict while collabrating.
+
+How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+
+	Git and GitHub both allow us to work freely because we don't have to worry when making any changes becuase we can always revert back
+	and GitHub allow us to work with multiple people.
